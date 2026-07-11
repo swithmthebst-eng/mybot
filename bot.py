@@ -14,14 +14,14 @@ from datetime import timedelta, date
 # ⚙️ الإعدادات
 # =========================
 # ضع التوكن في متغير بيئة باسم DISCORD_TOKEN بدل كتابته هنا (أأمن بكثير)
-TOKEN = os.getenv("DISCORD_TOKEN", "YOUR_TOKEN")
+TOKEN = os.getenv("dsct")
 
 DATA_FILE = "economy.json"
 WARN_FILE = "warnings.json"
 DAILY_AMOUNT = 100
 
 # الرول المسموح له وحده باستخدام الأوامر الخطرة و /script
-ALLOWED_ROLE_NAME = "SA | ALONE"
+ALLOWED_ROLE_NAME = "__  SA | ALONE   __"
 
 intents = discord.Intents.default()
 intents.message_content = True
